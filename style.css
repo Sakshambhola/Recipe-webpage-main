@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(135deg, #faf3e0, #f7f2ec);
+  color: hsl(30, 12%, 33%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: hsl(14, 55%, 38%);
+}
+
+header p {
+  font-size: 1.15em;
+  color: hsl(30, 12%, 43%);
+}
+
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.recipe-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 100%;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.recipe-title {
+  font-size: 2em;
+  color: hsl(30, 12%, 27%);
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.recipe-description {
+  font-size: 1.1em;
+  color: hsl(30, 12%, 42%);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+h2 {
+  color: hsl(14, 47%, 36%);
+  font-size: 1.3em;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid hsl(30, 58%, 85%);
+  padding-bottom: 6px;
+}
+
+.preparation-time {
+  background-color: hsl(30, 100%, 97%);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.preparation-time .highlight {
+  color: hsl(14, 47%, 36%);
+  font-weight: bold;
+}
+
+.ingredients-list, .instructions-list {
+  margin-bottom: 22px;
+  padding-left: 22px;
+}
+
+.instructions-list li {
+  margin-bottom: 10px;
+}
+
+.instructions-list li strong {
+  color: hsl(30, 12%, 42%);
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  color: hsl(30, 12%, 33%);
+}
+
+.nutrition-table th, .nutrition-table td {
+  padding: 12px;
+  border: 1px solid hsl(30, 12%, 85%);
+}
+
+.nutrition-table th {
+  background-color: hsl(30, 55%, 90%);
+}
+
+footer {
+  margin-top: 45px;
+  padding: 20px 0;
+  background-color: hsl(30, 12%, 92%);
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid hsl(30, 12%, 85%);
+}
+
+.footer-content {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 1.5em;
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: hsl(228, 45%, 34%);
+}
